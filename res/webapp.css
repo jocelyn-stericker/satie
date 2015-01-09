@@ -28,20 +28,26 @@ html {
   font-family: Alegreya;
   font-style: normal;
   font-weight: 400;
-  src: local('Alegreya'), local('Alegreya-Regular'), url(/res/alegreya.woff) format('woff');
+  src: local('Alegreya'), local('Alegreya-Regular'), url(alegreya.woff) format('woff');
 }
 @font-face {
   font-family: 'Overlock';
   font-style: normal;
   font-weight: 400;
-  src: local('Overlock'), local('Overlock-Regular'), url(/res/Overlock-Regular.woff) format('woff');
+  src: local('Overlock'), local('Overlock-Regular'), url(Overlock-Regular.woff) format('woff');
 }
 @font-face {
   font-family: 'Overlock';
   font-style: normal;
   font-weight: 700;
-  src: local('Overlock-Bold'), url(/res/Overlock-Bold.woff) format('woff');
+  src: local('Overlock-Bold'), url(Overlock-Bold.woff) format('woff');
 }
+@font-face {                                                                                                                                                                                                                               
+    font-family: 'bravura';
+    src: url('bravura.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}   
 .main {
     width: 100%;
 }

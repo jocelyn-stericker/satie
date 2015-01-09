@@ -32328,7 +32328,7 @@ function injectCSS() {
     var style = document.createElement("style");
     style.appendChild(document.createTextNode(""));
     document.head.appendChild(style);
-    style.innerHTML = "@font-face {" + "font-family: 'bravura';" + "src: url('/res/bravura.woff') format('woff');" + "font-weight: normal;" + "font-style: normal;" + "}" + ".mn_ {" + "-moz-user-select: none;" + "-ms-user-select: none;" + "-webkit-touch-callout: none;" + "-webkit-user-select: none;" + "cursor: default;" + "font-family: 'bravura';" + "user-select: none;" + "pointer-events: none;" + "text-rendering: optimizeSpeed;" + "}" + ".mmn_ {" + "font-family: 'Alegreya';" + "font-style: italic;" + "text-anchor: middle;" + "stroke: #7a7a7a;" + "}" + ".bn_ {" + "font-family: 'Alegreya';" + "font-style: italic;" + "text-anchor: end;" + "stroke: #7a7a7a;" + "}";
+    style.innerHTML = "@font-face {" + "font-family: 'bravura';" + "src: url('res/bravura.woff') format('woff');" + "font-weight: normal;" + "font-style: normal;" + "}" + ".mn_ {" + "-moz-user-select: none;" + "-ms-user-select: none;" + "-webkit-touch-callout: none;" + "-webkit-user-select: none;" + "cursor: default;" + "font-family: 'bravura';" + "user-select: none;" + "pointer-events: none;" + "text-rendering: optimizeSpeed;" + "}" + ".mmn_ {" + "font-family: 'Alegreya';" + "font-style: italic;" + "text-anchor: middle;" + "stroke: #7a7a7a;" + "}" + ".bn_ {" + "font-family: 'Alegreya';" + "font-style: italic;" + "text-anchor: end;" + "stroke: #7a7a7a;" + "}";
 }
 exports.MusicXMLView = TypedReact.createClass(MusicXMLViewSpec);
 
