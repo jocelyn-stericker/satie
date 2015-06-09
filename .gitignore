@@ -1,4 +1,0 @@
-partial
-.partialBuild
-node_modules
-website/static/build/browser-bundle.js
